@@ -16,4 +16,4 @@ res.send('We are on Home');
 
 mongoose.connect('mongodb+srv://joec:that1guy2@cluster0-tlgse.mongodb.net/parcial2?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true }, () => console.log('Conectado a la BD') );
 
-app.listen(3000);
+app.listen(port = process.env.PORT || 80);

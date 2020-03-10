@@ -1,14 +1,13 @@
 const mongoose = require ('mongoose');
 
 const postSchema = mongoose.Schema({
-    name: String,
-    email: String,
-    mobile: String,
-    city: String,
-    date: {
+    pulso: String,
+    fecha: {
         type: Date,
         default: Date.now
-    }
+    },
+    sensor: String,
+
 });
 
 
